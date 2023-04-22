@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/font-converter/static/css/main.99efe19c.css",
+    "main.js": "/font-converter/static/js/main.715326e7.js",
+    "static/js/787.b0bb167d.chunk.js": "/font-converter/static/js/787.b0bb167d.chunk.js",
+    "static/media/VarelaRound-Regular.ttf": "/font-converter/static/media/VarelaRound-Regular.3b7ffe17ffd5b4e3c72f.ttf",
+    "static/media/bg-0.png": "/font-converter/static/media/bg-0.9cdb4db0c74ad1919680.png",
+    "static/media/layered-waves-haikei-pc.svg": "/font-converter/static/media/layered-waves-haikei-pc.51c23551d84b942ca074.svg",
+    "static/media/layered-waves-haikei-mobile.svg": "/font-converter/static/media/layered-waves-haikei-mobile.d59c3f0bc576282068e4.svg",
+    "index.html": "/font-converter/index.html",
+    "main.99efe19c.css.map": "/font-converter/static/css/main.99efe19c.css.map",
+    "main.715326e7.js.map": "/font-converter/static/js/main.715326e7.js.map",
+    "787.b0bb167d.chunk.js.map": "/font-converter/static/js/787.b0bb167d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99efe19c.css",
+    "static/js/main.715326e7.js"
+  ]
+}
