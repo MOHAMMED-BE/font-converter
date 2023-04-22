@@ -1,0 +1,193 @@
+:root {
+  --shadow-3: 0 0.2rem 1.3rem 0 #665191a9;
+  --shadow-2: 0 0.2rem 1.3rem 0 #ff6e61ab;
+  --font-family: "Varela Round", sans-serif !important;
+  --orange: #FF6F61;
+  --yellow: #EFC050;
+  --purple: #665191;
+  --blue: #A9D6E5;
+  --light: #FFF;
+  --dark: #2D3E50;
+  --black: #0F131F;
+  --transition: all .5s !important;
+  --border-radius-img: 15px !important;
+  --radius: 10px !important;
+}
+
+@font-face {
+  font-family: 'Varela Round';
+  src: url(../src/assets/fonts/VarelaRound-Regular.ttf);
+}
+
+* {
+  transition: var(--transition) !important;
+}
+
+body {
+  font-family: var(--font-family) !important;
+}
+
+.overlay {
+  /* background-color: #000000ad !important; */
+  /* background: linear-gradient(45deg, #ff6e61c5, #665191c7) !important; */
+  width: 100% !important;
+  height: 100vh !important;
+  position: absolute !important;
+  background: rgba(255, 255, 255, 0.18) !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+  backdrop-filter: blur(17px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+}
+
+.home-page {
+  background-image: url('assets/images/bg-0.png') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 100vh !important;
+  width: 100% !important;
+}
+
+.top-container {
+  height: 100vh !important;
+}
+
+.card {
+  width: 50rem !important;
+  height: 26rem !important;
+  border-radius: var(--border-radius-img) !important;
+}
+
+.card-title {
+  font-size: 1.2rem !important;
+}
+
+.text-border {
+  border: var(--purple) 2px dotted;
+  border-radius: var(--radius);
+}
+
+.length-btn {
+  border: 2px solid var(--purple) !important;
+  height: 35px;
+  width: 35px;
+  margin: 0px 0 7px 0 !important;
+}
+
+.length-btn:hover {
+  border: 2px solid var(--orange) !important;
+}
+
+.length-btn:hover .icon-plus {
+  color: #FF6F61;
+}
+
+.icon-plus {
+  transform: scale(1.2) !important;
+  margin: 0 0px 5px -4px;
+}
+
+.form-check-input:checked {
+  background-color: var(--orange) !important;
+  border-color: var(--orange) !important;
+}
+
+.form-check-input {
+  border: 1px solid #66519198 !important;
+}
+
+input:focus {
+  border-color: var(--yellow) !important;
+  outline: none !important;
+  box-shadow: 0 0 0 0.25rem #efbf5079 !important;
+}
+
+.generate-btn {
+  position: relative !important;
+  background-color: var(--purple) !important;
+  color: var(--light) !important;
+  border-radius: 5px !important;
+  letter-spacing: .5px;
+}
+
+.generate-btn:hover {
+  background-color: var(--orange) !important;
+  color: var(--light) !important;
+}
+
+.generate-btn::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border: var(--purple) 2px solid;
+  border-radius: 5px;
+  pointer-events: none;
+  transition: var(--transition) !important;
+  box-shadow: var(--shadow-3);
+}
+
+.generate-btn:hover::after {
+  border: var(--orange) 2px solid;
+  box-shadow: var(--shadow-2);
+}
+
+.clipboard {
+  transform: scale(1.7) !important;
+  margin: 0px 0px 3px 8px;
+  color: var(--purple) !important;
+  border: none !important;
+  outline: none !important;
+  cursor: pointer;
+}
+
+.clipboardcheck {
+  color: var(--orange) !important;
+}
+
+.clipboard:hover {
+  color: var(--orange) !important;
+}
+
+.clipboard-btn {
+  border: none !important;
+  outline: none !important;
+  background: none !important;
+}
+
+.row {
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.footer {
+  background-image: url('assets/images/layered-waves-haikei-pc.svg') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 46vh !important;
+  width: 100% !important;
+}
+
+@media screen and (max-width:1200px) {
+  .footer {
+    height: 30vh !important;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .footer {
+    background-image: url('assets/images/layered-waves-haikei-mobile.svg') !important;
+    height: 40vh !important;
+  }
+}
+
+.loader {
+  color: var(--purple) !important;
+  border-top-color: var(--purple) !important;
+  border-bottom-color: var(--purple) !important;
+}
+
+.swal-title {
+  font-size: 22px !important;
+}
